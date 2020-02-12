@@ -1,14 +1,9 @@
 *** Settings ***
 Documentation    Suite description
 Library          SeleniumLibrary
-
-
 *** Variables ***
 ${URLwelcome}           https://www.google.com
 ${BROWSER}              chrome
-
-
-
 *** Test Cases ***
 Open Google Test in chrome
     [Tags]    DEBUG
